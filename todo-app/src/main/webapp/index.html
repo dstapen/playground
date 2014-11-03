@@ -6,14 +6,10 @@
 </head>
 <body>
 <div>
-
     <ul>
-        <li>
-            <a href="ping">ping</a>
-        </li>
-        <li>
-            <a href="api/hello">hello</a>
-        </li>
+        <li><a href="ping">ping</a></li>
+        <li><a href="api/hello">hello</a></li>
+        <li><a href="draft_todo.html">draft</a></li>
     </ul>
 </div>
 <div ng-controller='test'>
@@ -21,7 +17,7 @@
 </div>
 <script src="s/angular.min.js"></script>
 <script>
-    var app = angular.module('Hello', []).controller('test', ['$scope', function($scope) {
+    var app = angular.module('Hello', []).controller('test', ['$scope', function ($scope) {
         $scope.message = 'Hello, world!';
     }]);
 </script>
