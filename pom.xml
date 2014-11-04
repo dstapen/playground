@@ -14,6 +14,8 @@
         <javaee-version>7.0</javaee-version>
         <spring-version>4.1.1.RELEASE</spring-version>
         <jackson-version>2.4.3</jackson-version>
+        <guava-version>18.0</guava-version>
+        <leveldb-version>0.7</leveldb-version>
     </properties>
     <modules>
         <module>todo-app</module>
