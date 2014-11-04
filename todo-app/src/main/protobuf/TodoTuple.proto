@@ -1,0 +1,9 @@
+package com.dstapen; 
+
+option java_package = "com.dstapen";
+option java_outer_classname = "TodoTuple";
+
+message Todo {
+    required string description = 1;
+    required bool done = 2;
+}
